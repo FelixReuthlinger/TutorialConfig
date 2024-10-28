@@ -9,11 +9,11 @@ using ServerSync;
 namespace ModTemplate;
 
 [BepInPlugin(ModGuid, ModName, ModVersion)]
-public class ModTemplatePlugin : BaseUnityPlugin
+public class TutorialConfigPlugin : BaseUnityPlugin
 {
-    public const string ModName = "ModTemplate";
+    public const string ModName = "TutorialConfig";
     public const string ModVersion = "1.0.0";
-    private const string ModAuthor = "RepaceMe";
+    private const string ModAuthor = "FixItFelix";
     private const string ModGuid = ModAuthor + "." + ModName;
 
     private readonly Harmony _harmony = new(ModGuid);
